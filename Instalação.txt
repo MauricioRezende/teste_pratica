@@ -19,5 +19,18 @@ Passos para executa a API
 - - Crie um banco de dados chamado "API_PRATICA" (esse é o nome que está configurado na API). Com outro nome, apenas será necessário configura-lo na api
 - - Na pasta "API", abra a pasta "sql" e abra o arquivo "create.js"
 - - Copie o código SQL, e execute-o no banco de dados criado
-- - Agora basta iniciar a API. Para iniciar, abra o CMD dentro da pasta "api", digite "node .\api.js"
+- - Abra o CMD dentro da pasta "api", digite "npm install" e pressione "ENTER"
+- - Dentro da pasta "api", abra o arquivo "config.js". Nesse arquivo, defina as configurações de conexão com o SQL SERVER (lembrando que a porta a ser configurada será a localizada nos passos anteriores)
+
+- - Digite "node .\api.js" e pressione "ENTER"
 - - Feito isso, a API já estará rodando na porta 8090
+
+Para iniciar a aplicação
+- Abra a pasta "web" e dentro da mesma abra o CMD. Digite "npm install" e pressione "ENTER"
+- Feito isso, digite "npm start" e pressione "ENTER"
+- Feito isso, a aplicação estará rodando na porta 3000
+
+
+----- Adicione o arquivo comments.md explicando
+
+----- Indique o que melhoraria no código caso tivesse mais tempo

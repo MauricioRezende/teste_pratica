@@ -23,7 +23,7 @@ const Technician = props => {
                 setData(res.data)
                 setForm(res.data[0])                
             })
-    },[props.match.params.id])
+    },[edit])
 
     const handleEdit = () => {
         setEdit(!edit)
@@ -79,7 +79,7 @@ const Technician = props => {
             { !edit && 
                 <Button color='info' onClick={handleEdit}>Cancel edit</Button>
             }
-            
+
             <br /><br />
 
             <Alert  color="success" isOpen={visibleAlert} toggle={onDismiss} >
