@@ -23,14 +23,13 @@ const Technician = props => {
                 setData(res.data)
                 setForm(res.data[0])                
             })
-    },[edit])
+    },[])
 
     const handleEdit = () => {
         setEdit(!edit)
     }
 
     const save = () => {
-        // name,telephone,email,address,status
         if(form.name === undefined || form.name === ''){
             errors.push('Fill in the name field')
         }
