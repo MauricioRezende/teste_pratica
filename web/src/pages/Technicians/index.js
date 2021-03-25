@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 import ModalDelete from '../../components/ModalDelete'
-import './style.css'
 
 const baseURL = 'http://localhost:8090/api'
 

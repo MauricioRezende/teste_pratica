@@ -14,7 +14,7 @@ import Technician from './pages/Technician'
 import Technicians from './pages/Technicians'
 import NewTechnician from './pages/NewTechnician'
 
-import './style/Global.css'
+import './style/global.css'
 
 function App() {
     return (
